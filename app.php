@@ -20,19 +20,13 @@
     $cuerpo->tipoPelo = (string) "Liso";
 
     var_dump($nombre);
-    echo "<br> <br>";
     var_dump($edad);
-    echo "<br> <br>";
     var_dump($altura);
-    echo "<br> <br>";
     var_dump($soyProfesor);
-    echo "<br> <br>";
     var_dump($pasaTiempos);
-    echo "<br> <br>";
     var_dump($dirrecion);
-    echo "<br> <br>";
     var_dump($cuerpo);
-
+    var_dump($_SERVER["SCRIPT_FILENAME"]);
 ?>
 
 
